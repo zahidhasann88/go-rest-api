@@ -1,0 +1,1 @@
+go build && .\godemo.exe config/local-config.json

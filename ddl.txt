@@ -1,0 +1,14 @@
+CREATE TABLE public.color (
+	color_id serial4 NOT NULL,
+	color_name text NULL
+);
+
+
+CREATE TABLE public.color_archive (
+	color_id int4 NOT NULL,
+	color_name text NULL,
+	changedate timestamp NULL,
+	changeflag text NULL,
+	trackid serial4 NOT NULL,
+	changeuser text NULL
+);
